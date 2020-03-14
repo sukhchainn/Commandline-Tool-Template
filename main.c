@@ -2,10 +2,11 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
-#include "pack.h"
-#include "unpack.h"
 
 #define VERSION "0.0.0.1"
+
+enum Options {P, o, r, t, U, g, u, E, s, e};
+enum Features {test, verbose, help, quite};
 
 // Options available globally
 char OPTIONS[10], FEATURES[4];
