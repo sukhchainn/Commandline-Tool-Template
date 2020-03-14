@@ -158,7 +158,7 @@ int main(int argc, char *argv[]) {
     */
 
     
-    // To be removed after the implementation of pack.c and unpack.c
+    // To be removed after the implementation of application logic
     for (char i = 0; i < 10; i++)
     {
         printf("%d ", OPTIONS[i]);
